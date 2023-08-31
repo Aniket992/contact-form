@@ -1,5 +1,6 @@
 import './App.css';
 import Content from './Components/content/content';
+import Form from './Components/content/form';
 
 import  Navigation from'./Components/navigation/navigation.jsx';
 function App() {
@@ -9,6 +10,7 @@ function App() {
     
     <Navigation/>
     <Content/>
+    <Form/>
     </>
   );
 }
